@@ -1,7 +1,18 @@
 .App {
-  text-align: center;
+  width: 100% !important;
+  height: 100% !important;
 }
-
+#root {
+  width: 100% !important;
+  height: 100% !important;
+  background-image: url("../public/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  width: 100% !important;
+  height: 100% !important;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
